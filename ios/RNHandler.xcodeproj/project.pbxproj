@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0F2B6028223F71C700B81636 /* NSData+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2B6026223F71C600B81636 /* NSData+Encryption.m */; };
+		0F2B6077223F8D1300B81636 /* QLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2B6074223F8D1300B81636 /* QLabel.m */; };
+		0F2B6078223F8D1300B81636 /* QLabelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2B6076223F8D1300B81636 /* QLabelManager.m */; };
 		B3E7B58A1CC2AC0600A0062D /* RNHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNHandler.m */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +28,10 @@
 /* Begin PBXFileReference section */
 		0F2B6026223F71C600B81636 /* NSData+Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Encryption.m"; sourceTree = "<group>"; };
 		0F2B6027223F71C600B81636 /* NSData+Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Encryption.h"; sourceTree = "<group>"; };
+		0F2B6073223F8D1300B81636 /* QLabelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLabelManager.h; sourceTree = "<group>"; };
+		0F2B6074223F8D1300B81636 /* QLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLabel.m; sourceTree = "<group>"; };
+		0F2B6075223F8D1300B81636 /* QLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLabel.h; sourceTree = "<group>"; };
+		0F2B6076223F8D1300B81636 /* QLabelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLabelManager.m; sourceTree = "<group>"; };
 		134814201AA4EA6300B7C361 /* libRNHandler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNHandler.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E7B5881CC2AC0600A0062D /* RNHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNHandler.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNHandler.m; sourceTree = "<group>"; };
@@ -45,6 +51,10 @@
 		0F2B6025223F71C600B81636 /* class */ = {
 			isa = PBXGroup;
 			children = (
+				0F2B6075223F8D1300B81636 /* QLabel.h */,
+				0F2B6074223F8D1300B81636 /* QLabel.m */,
+				0F2B6073223F8D1300B81636 /* QLabelManager.h */,
+				0F2B6076223F8D1300B81636 /* QLabelManager.m */,
 				0F2B6026223F71C600B81636 /* NSData+Encryption.m */,
 				0F2B6027223F71C600B81636 /* NSData+Encryption.h */,
 			);
@@ -126,6 +136,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3E7B58A1CC2AC0600A0062D /* RNHandler.m in Sources */,
+				0F2B6077223F8D1300B81636 /* QLabel.m in Sources */,
+				0F2B6078223F8D1300B81636 /* QLabelManager.m in Sources */,
 				0F2B6028223F71C700B81636 /* NSData+Encryption.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
