@@ -4,7 +4,7 @@ import RichText from './components/RichText/RichText'
 
 const { RNHandler } = NativeModules;
 
-export default 
+export 
 {
     RNHandler,
     RichText
