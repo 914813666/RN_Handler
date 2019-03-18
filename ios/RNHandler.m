@@ -22,5 +22,17 @@ RCT_REMAP_METHOD(encryString,
     resolver(result);
 }
 
+//字符串解密
+RCT_REMAP_METHOD(dencryString,
+                 dString:(NSString*) str
+                 resolver:(RCTPromiseResolveBlock)resolver
+                 rejecter:(RCTPromiseRejectBlock)reject) {
+    NSString *key = @"hshCustomerApp";
+    NSData *newJM = [[NSData alloc]initWithBase64EncodedString: str options:NSDataBase64DecodingIgnoreUnknownCharacters];
+    NSData * tempData = [newJM AES256DecryptWithKey:key];
+    NSString * result = [[NSString alloc] initWithData:tempData encoding:NSUTF8StringEncoding];
+    resolver(result);
+}
+
 @end
   
